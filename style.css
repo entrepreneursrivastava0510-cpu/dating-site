@@ -1,0 +1,8 @@
+body {
+    background-image: url("https://i.pinimg.com/736x/f8/4c/e4/f84ce45ac3d1ec6e31a4f7618ffdffed.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
