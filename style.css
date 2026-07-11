@@ -6,3 +6,19 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
 }
+
+.card {
+    background: white;
+    width: 350px;
+    margin: 80px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
