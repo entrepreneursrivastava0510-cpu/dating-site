@@ -36,4 +36,28 @@
 </div>
 
 </body>
+    
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBuheridJz9E2Cu0qD8GQKjAY1ejYRVvwY",
+    authDomain: "indian-american-dating-site.firebaseapp.com",
+    projectId: "indian-american-dating-site",
+    storageBucket: "indian-american-dating-site.firebasestorage.app",
+    messagingSenderId: "884534584491",
+    appId: "1:884534584491:web:0d64ad2e8a8da6287e43ee",
+    measurementId: "G-6KJ3MEEDR5"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 
