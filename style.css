@@ -4,7 +4,7 @@ body {
     background-position: center;
     min-height: 100vh;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .card {
@@ -38,3 +38,19 @@ button {
 button:hover {
     background: #ff1744;
 }
+
+h1 {
+    animation: glow 2s infinite alternate;
+    font-weight: 700;
+}
+
+@keyframes glow {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
+}
+
